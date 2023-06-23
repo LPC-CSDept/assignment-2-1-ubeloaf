@@ -5,9 +5,9 @@ def main():
 
     total_students = total_males + total_females
 
-    m_perc = total_males / total_students
-    f_perc = total_females / total_students
-    
+    m_perc = (total_males / total_students) * 100
+    f_perc = (total_females / total_students) * 100
+
     return m_perc, f_perc
 
 
