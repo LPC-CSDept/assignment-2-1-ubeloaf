@@ -1,16 +1,13 @@
 def main():
-    """
-    ##################################################
-    Comlete your code here
-    Use m_perc and f_perc for your results
-    ##################################################
-    """
 
-    """
-    ########################################
-    # Do not delete the return statement
-    ########################################
-    """
+    total_males = int(input('How many males are registered?\n'))
+    total_females = int(input('How many females are registered?\n'))
+
+    total_students = total_males + total_females
+
+    m_perc = total_males / total_students
+    f_perc = total_females / total_students
+    
     return m_perc, f_perc
 
 
